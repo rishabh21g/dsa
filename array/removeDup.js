@@ -13,7 +13,7 @@ function delDup(arr) {
   return [...uniqueArr];
 }
 
-// console.log(delDup(arr));
+console.log(delDup(arr));
 
 // by hashing
 function remDupByHash(arr) {
@@ -28,4 +28,4 @@ function remDupByHash(arr) {
   return uniqueArr;
 }
 
-console.log(remDupByHash(arr))
+// console.log(remDupByHash(arr));
